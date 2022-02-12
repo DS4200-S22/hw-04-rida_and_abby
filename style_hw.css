@@ -8,6 +8,8 @@ body {
 
 #circle1 {
   fill: red;
+  stroke: black;
+  stroke-width: 3px;
 }
 
 #circle2 {
@@ -16,4 +18,8 @@ body {
 
 #circle3 {
   fill: rebeccapurple;
+  border-style: solid;
+  stroke: black;
+  stroke-width: 3px;
 }
+
