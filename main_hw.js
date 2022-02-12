@@ -4,6 +4,7 @@
 // clicked on, the count should update.
 
 var counter = 0;
+var circle3_visible = true;
 
 function circle1_click() {
 
@@ -24,5 +25,16 @@ function circle2_mouseout() {
 
 	document.getElementById("circle2").setAttribute("stroke", "none");
 	document.getElementById("circle2").setAttribute("stroke-width", "0");
+
+}
+
+function circle3_click() {
+	if (circle3_visible) {
+		document.getElementById("circle3").style.opacity = "0";
+		circle3_visible = false;
+	} else {
+		document.getElementById("circle3").style.opacity = "1";
+		circle3_visible = true;
+	}
 
 }
