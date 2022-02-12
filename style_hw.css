@@ -7,13 +7,13 @@ body {
 }
 
 #circle1 {
-  color: red;
+  fill: red;
 }
 
 #circle2 {
-  color: deeppink;
+  fill: deeppink;
 }
 
 #circle3 {
-  color: rebeccapurple;
+  fill: rebeccapurple;
 }
