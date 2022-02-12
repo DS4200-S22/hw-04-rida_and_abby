@@ -15,8 +15,14 @@ function circle1_click() {
 
 function circle2_mouseover() {
 
-	document.getElementById("circle2").stroke = black;
-	document.getElementById("circle2").stroke-width = 3px;
+	document.getElementById("circle2").setAttribute("stroke", "black");
+	document.getElementById("circle2").setAttribute("stroke-width", "3px");
 
+}
+
+function circle2_mouseout() {
+
+	document.getElementById("circle2").setAttribute("stroke", "none");
+	document.getElementById("circle2").setAttribute("stroke-width", "0");
 
 }
