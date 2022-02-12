@@ -9,3 +9,11 @@ div {
     text-align: center;
     line-height: 50px;
 }
+
+body {
+    font-family: Arial; 
+}
+
+.centered {
+  text-align: center;
+}
