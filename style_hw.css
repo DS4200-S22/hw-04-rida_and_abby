@@ -17,3 +17,15 @@ body {
 .centered {
   text-align: center;
 }
+
+#circle1 {
+  color: red;
+}
+
+#circle2 {
+  color: deeppink;
+}
+
+#circle3 {
+  color: rebeccapurple;
+}
